@@ -21,7 +21,7 @@ pipeline {
           timestamps {
             git branch: 'main',
                 credentialsId: 'Jenkins_kube',
-                url: 'git@github.com:deeebugger/ruby-app.git'
+                url: 'git@github.com:deeebugger/ruby-config.git'
             sh "ls -lat"
                 }
             }
